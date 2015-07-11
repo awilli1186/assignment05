@@ -1,0 +1,52 @@
+body {
+  background:#97DEDD;
+  width:100%;
+  box-sizing: border-box;
+
+  h3{
+    font-family: fantasy;
+    font-size: 34px;
+    text-align: center;
+    color:#F38630;
+    font-weight: bolder;
+  }
+}
+
+.input {
+  width:100%;
+  background-color: #DEE6CB;
+  border-radius: 10%;
+  width:8.5em;
+  position: relative;
+  padding: 10px 5px;
+  left:39.5em;
+
+  #num_one {
+    border: 2px solid black;
+    border-radius: 10%;
+  }
+
+  #num_two {
+    border: 2px solid black;
+    border-radius: 10%;
+  }
+
+  #calculateBtn {
+    background-color: #FA6900;
+    font-family: fantasy;
+    color: #556B62;
+    padding-top: 7px;
+    font-size: 15px;
+    border-radius: 10%;
+  }
+}
+
+  .answer {
+    position:relative;
+    left:35em;
+    font-family: fantasy;
+    font-size: 18px;
+    color:#F38630;
+    padding-right: 5px;
+    font-weight: bold;
+  }
