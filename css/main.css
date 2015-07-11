@@ -6,27 +6,32 @@ body {
     font-family: fantasy;
     font-size: 34px;
     text-align: center;
-    color: #F38630;
+    color: #767e85;
     font-weight: bolder; }
 
 .input {
-  width: 100%;
-  background-color: #DEE6CB;
-  border-radius: 10%;
-  width: 8.5em;
-  position: relative;
+  background-color: #ee9434;
+  border-radius: 5%;
+  width: 16%;
+  position: fixed;
   padding: 10px 5px;
   left: 39.5em; }
   .input #num_one {
     border: 2px solid black;
-    border-radius: 10%; }
+    border-radius: 5%;
+    width: 12em;
+    height: 2em;
+    font-size: 18px; }
   .input #num_two {
     border: 2px solid black;
-    border-radius: 10%; }
+    border-radius: 5%;
+    width: 12em;
+    height: 2em;
+    font-size: 18px; }
   .input #calculateBtn {
-    background-color: #FA6900;
-    font-family: fantasy;
-    color: #556B62;
+    background-color: #767e85;
+    font-family: Arial;
+    color: #DEE6CB;
     padding-top: 7px;
     font-size: 15px;
     border-radius: 10%; }
@@ -34,8 +39,9 @@ body {
 .answer {
   position: relative;
   left: 35em;
-  font-family: fantasy;
+  top: 10em;
+  font-family: Arial;
   font-size: 18px;
-  color: #F38630;
+  color: #767e85;
   padding-right: 5px;
   font-weight: bold; }
