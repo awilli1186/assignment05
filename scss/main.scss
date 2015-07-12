@@ -4,7 +4,7 @@ body {
   box-sizing: border-box;
 
   h3{
-    font-family: fantasy;
+    font-family: Arial;
     font-size: 34px;
     text-align: center;
     color:#767e85;
@@ -15,10 +15,10 @@ body {
 .input {
   background-color: #ee9434;
   border-radius: 5%;
-  width:16%;
+  width:auto;
   position: fixed;
   padding: 10px 5px;
-  left:39.5em;
+  left:42%;
 
   #num_one {
     border: 2px solid black;
@@ -48,7 +48,7 @@ body {
 
   .answer {
     position:relative;
-    left:35em;
+    left:42%;
     top:10em;
     font-family: Arial;
     font-size: 18px;
