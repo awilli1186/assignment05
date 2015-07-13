@@ -14,5 +14,3 @@ var calBtnClickHandler = function(x, y){
   };
 
 $calBtn.onclick = calBtnClickHandler;
-
-// parseInt
